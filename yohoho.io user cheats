@@ -42,7 +42,7 @@ function hehe(e){
         } 
         else if(e.keyCode == "76")l
     {
-        var l = prompt("What level would you like your pet to be? Please pick a number between 1 and 14!") //etc.
+        var l = prompt("What level would you like your pet to be? Please pick a number between 1 and 14!")
         if (isNaN(l))
         {
             alert("Oops! something went wrong! Perhaps entering a number next time will solve the issue?") 
